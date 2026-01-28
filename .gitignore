@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# LaTeX temporary files
+*.dvi
+*.ps
+*.xdv
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Overleaf
+.texpadtmp/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Data (large files)
+*.hdf5
+*.h5
+*.fits
+*.csv.gz
+
+# Results (optional - uncomment if you want to track)
+# results/chains/*.npy
+# results/chains/*.txt
+
+# Figures (optional - uncomment to ignore generated figures)
+# figures/*.pdf
+# figures/*.png
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# MultiNest output
+chains/
+ev.dat
+phys_live.points
+live.points
+resume.dat
+stats.dat
+post_equal_weights.dat
+post_separate.dat
